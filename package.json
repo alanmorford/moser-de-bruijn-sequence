@@ -1,0 +1,23 @@
+{
+  "name": "moser-de-bruijn-sequence",
+  "version": "1.0.0",
+  "description": "The Moser–de Bruijn sequence is an integer sequence named after Leo Moser and Nicolaas Govert de Bruijn.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanmorford/moser-de-bruijn-sequence.git"
+  },
+  "keywords": [
+    "number",
+    "theory"
+  ],
+  "author": "Alan Morford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanmorford/moser-de-bruijn-sequence/issues"
+  },
+  "homepage": "https://github.com/alanmorford/moser-de-bruijn-sequence#readme"
+}
