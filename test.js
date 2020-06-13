@@ -28,5 +28,16 @@ dotest.add ('function: moserDeBruijnSequence', test => {
     .done ();
 });
 
+// moserDeBruijnSequence null cases
+dotest.add ('function: moserDeBruijnSequence', test => {
+
+  test ()
+    .isExactly ('fail', 'moserDeBruijnSequence(-1)', moserDeBruijnSequence(-1), null)
+    .isExactly ('fail', 'moserDeBruijnSequence(1.1)', moserDeBruijnSequence(1.1), null)
+    .isExactly ('fail', 'moserDeBruijnSequence("abc")', moserDeBruijnSequence("abc"), null)
+    .isExactly ('fail', 'moserDeBruijnSequence(true)', moserDeBruijnSequence(true), null)
+    .done ();
+});
+
 // Start the tests
 dotest.run ();
