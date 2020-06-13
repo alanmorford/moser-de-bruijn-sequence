@@ -17,5 +17,16 @@ dotest.add ('Module', test => {
     .done ();
 });
 
+// moserDeBruijnSequence base cases
+dotest.add ('function: moserDeBruijnSequence', test => {
+
+  test ()
+    .isExactly ('fail', 'moserDeBruijnSequence(0)', moserDeBruijnSequence(0), 0)
+    .isExactly ('fail', 'moserDeBruijnSequence(1)', moserDeBruijnSequence(1), 1)
+    .isExactly ('fail', 'moserDeBruijnSequence(0)', moserDeBruijnSequence(2), 4)
+    .isExactly ('fail', 'moserDeBruijnSequence(1)', moserDeBruijnSequence(3), 5)
+    .done ();
+});
+
 // Start the tests
 dotest.run ();
