@@ -4,7 +4,7 @@
   "description": "The Moser–de Bruijn sequence is an integer sequence named after Leo Moser and Nicolaas Govert de Bruijn.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/alanmorford/moser-de-bruijn-sequence/issues"
   },
-  "homepage": "https://github.com/alanmorford/moser-de-bruijn-sequence#readme"
+  "homepage": "https://github.com/alanmorford/moser-de-bruijn-sequence#readme",
+  "devDependencies": {
+    "dotest": "^2.7.1"
+  }
 }
