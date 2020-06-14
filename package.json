@@ -1,6 +1,6 @@
 {
   "name": "moser-de-bruijn-sequence",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Moser–de Bruijn sequence is an integer sequence named after Leo Moser and Nicolaas Govert de Bruijn.",
   "main": "index.js",
   "scripts": {
