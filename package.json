@@ -15,7 +15,7 @@
     "theory"
   ],
   "author": "Alan Morford",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/alanmorford/moser-de-bruijn-sequence/issues"
   },
